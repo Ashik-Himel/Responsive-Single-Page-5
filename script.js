@@ -1,6 +1,6 @@
 // AOS JS
 AOS.init({
-    duration: 1000,
+    duration: 1000
 })
 
 // PreLoader
@@ -10,6 +10,6 @@ document.querySelector('body').onload = function() {
 
 // CouterUp
 $('.counter').counterUp({
-    delay: 10,
-    time: 1000
+    delay: 500,
+    time: 1500
 });

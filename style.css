@@ -1,5 +1,5 @@
 /* =============== Initial Setup and Utilities ================== */
-body {font-family: 'Poppins', sans-serif;}
+body {font-family: 'Poppins', sans-serif; overflow-x: hidden;}
 .navbar-brand, h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 .half-opacity-bg {background-color: rgba(0, 123, 255, 0.2) !important;}
 .positioning {top: -40%; left: 50%; transform: translateX(-50%);}
@@ -11,4 +11,4 @@ body {font-family: 'Poppins', sans-serif;}
 .card-fade:hover, .card-fade:hover i {color: white !important; transition: color 1s;}
 /* =============== For Background Image ============ */
 .bannar {background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(images/hero-bg.jpg); background-attachment: fixed; height: 400px;}
-.carousel-item {height: 450px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/testimonials-bg.jpg); color: white;}
+.carousel-area {height: 450px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/testimonials-bg.jpg); color: white;}

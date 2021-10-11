@@ -10,6 +10,6 @@ document.querySelector('body').onload = function() {
 
 // CouterUp
 $('.counter').counterUp({
-    delay: 500,
+    delay: 10,
     time: 1500
 });

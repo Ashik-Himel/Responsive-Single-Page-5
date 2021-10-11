@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
-* {padding: 0; margin: 0; box-sizing: border-box;}
+/* =============== Initial Setup and Utilities ================== */
 body {font-family: 'Poppins', sans-serif;}
-.navbar-brand, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6, h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
-.bannar {background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(images/hero-bg.jpg); background-attachment: fixed; height: 400px;}
+.navbar-brand, h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 .half-opacity-bg {background-color: rgba(0, 123, 255, 0.2) !important;}
 .positioning {top: -40%; left: 50%; transform: translateX(-50%);}
+.carousel-item img {width: 100px;}
+/* ============= For Card Hover ============== */
+.card-body {z-index: 1;}
+.card-fade::before {content: ""; display: block; position: absolute; background-color: rgb(0, 123, 255); top: 100%; bottom: 0; left: 0; right: 0; z-index: 0; transition: top 0.5s ease-out;}
+.card-fade:hover:before {top: 0;}
+.card-fade:hover {color: white; transition: color 1s;}
+/* =============== For Background Image ============ */
+.bannar {background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(images/hero-bg.jpg); background-attachment: fixed; height: 400px;}
+.carousel-item {height: 450px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/testimonials-bg.jpg); color: white;}

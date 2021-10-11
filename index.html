@@ -11,21 +11,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+
+<!-- PreLoader -->
+<div class="loading w-100 vh-100 fixed-top" style="background: #fff url(images/preloader.gif) no-repeat center;"></div>
+
 <!-- Top Header -->
 <header class="container-fluid bg-primary text-light py-2">
     <div class="container">
@@ -270,28 +270,28 @@
             <div class="col-12 col-md-6 col-lg-3 my-5" data-aos="fade-up">
                 <div class="mx-3 pb-2 half-opacity-bg text-center position-relative">
                     <i class="bi bi-emoji-smile bg-primary text-light fs-4 py-3 px-4 rounded-circle position-absolute positioning"></i>
-                    <h1 class="pt-4">232</h1>
+                    <h1 class="counter pt-4">232</h1>
                     <p class="text-secondary">Happy Clients</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 my-5" data-aos="fade-up">
                 <div class="mx-3 pb-2 half-opacity-bg text-center position-relative">
                     <i class="bi bi-calendar2-check-fill bg-primary text-light fs-4 py-3 px-4 rounded-circle position-absolute positioning"></i>
-                    <h1 class="pt-4">521</h1>
+                    <h1 class="counter pt-4">521</h1>
                     <p class="text-secondary">Project</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 my-5" data-aos="fade-up">
                 <div class="mx-3 pb-2 half-opacity-bg text-center position-relative">
                     <i class="bi bi-headset bg-primary text-light fs-4 py-3 px-4 rounded-circle position-absolute positioning"></i>
-                    <h1 class="pt-4">1463</h1>
+                    <h1 class="counter pt-4">1463</h1>
                     <p class="text-secondary">Hours of Support</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 my-5" data-aos="fade-up">
                 <div class="mx-3 pb-2 half-opacity-bg text-center position-relative">
                     <i class="bi bi-people bg-primary text-light fs-4 py-3 px-4 rounded-circle position-absolute positioning"></i>
-                    <h1 class="pt-4">15</h1>
+                    <h1 class="counter pt-4">15</h1>
                     <p class="text-secondary">Hard Workers</p>
                 </div>
             </div>
@@ -303,22 +303,22 @@
 <section class="container-fluid half-opacity-bg mb-3" data-aos="zoom-in">
     <div class="container">
         <div class="row align-items-center py-4">
-            <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <div class="col-6 col-md-4 col-lg-2 my-5">
                 <img src="images/client-1.png" alt="Our Client" class="w-50">
             </div>
-            <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <div class="col-6 col-md-4 col-lg-2 my-5">
                 <img src="images/client-2.png" alt="Our Client" class="w-50">
             </div>
-            <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <div class="col-6 col-md-4 col-lg-2 my-5">
                 <img src="images/client-3.png" alt="Our Client" class="w-50">
             </div>
-            <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <div class="col-6 col-md-4 col-lg-2 my-5">
                 <img src="images/client-4.png" alt="Our Client" class="w-50">
             </div>
-            <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <div class="col-6 col-md-4 col-lg-2 my-5">
                 <img src="images/client-5.png" alt="Our Client" class="w-50">
             </div>
-            <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <div class="col-6 col-md-4 col-lg-2 my-5">
                 <img src="images/client-6.png" alt="Our Client" class="w-50">
             </div>
         </div>
@@ -446,18 +446,15 @@
       </div>
 </section>
 
-    <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-        AOS.init({
-            duration: 1000,
-        })
-    </script>
-
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js""></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 
 </body>
 </html>

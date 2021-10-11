@@ -1,5 +1,4 @@
 // AOS JS
-AOS.init();
 AOS.init({
     duration: 1000,
 })
@@ -10,9 +9,7 @@ document.querySelector('body').onload = function() {
 }
 
 // CouterUp
-$(document).ready(function() {
-    $("counter").counterUp({
-        delay: 10,
-        time: 1500,
-    })
+$('.counter').counterUp({
+    delay: 10,
+    time: 1000
 });

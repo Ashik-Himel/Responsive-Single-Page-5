@@ -11,10 +11,6 @@ body {font-family: 'Poppins', sans-serif;}
 .card-fade:hover, .card-fade:hover i {color: white !important; transition: color 1s;}
 /* =============== For Background Image ============ */
 .bannar {background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(images/hero-bg.jpg); background-attachment: fixed; height: 400px;}
-<<<<<<< HEAD
 .carousel-area {height: 450px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/testimonials-bg.jpg); color: white;}
 /* ================= Responsive Problem for Animation ================= */
 [data-aos="slide-right"] , [data-aos="slide-right"] * , [data-aos="slide-left"] , [data-aos="slide-left"] * {overflow-x: hidden;}
-=======
-.carousel-item {height: 450px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/testimonials-bg.jpg); color: white;}
->>>>>>> parent of 2001bed (Carousel Fix Done!)

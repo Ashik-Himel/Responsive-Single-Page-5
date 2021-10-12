@@ -2,7 +2,7 @@
 body {font-family: 'Poppins', sans-serif;}
 .navbar-brand, h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 .half-opacity-bg {background-color: rgba(0, 123, 255, 0.2) !important;}
-.positioning {top: -40%; left: 50%; transform: translateX(-50%);}
+.positioning {top: -30%; left: 50%; transform: translateX(-50%);}
 .carousel-item img {width: 100px;}
 /* ============= For Card Hover ============== */
 .card-body {z-index: 1;}

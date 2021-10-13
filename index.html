@@ -457,14 +457,25 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row my-2">
             <div class="col d-flex gap-3 justify-content-center tab-titles">
-                <span class="active">ALL</span>
-                <span>APP</span>
-                <span>CARD</span>
-                <span>WEB</span>
+                <span data-filter="*" class="active">ALL</span>
+                <span data-filter=".app">APP</span>
+                <span data-filter=".card">CARD</span>
+                <span data-filter=".web">WEB</span>
             </div>
+        </div>
+        <div class="row my-2 tab-content">
+            <img src="images/portfolio-1.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image app">
+            <img src="images/portfolio-2.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image web">
+            <img src="images/portfolio-3.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image app">
+            <img src="images/portfolio-4.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image card">
+            <img src="images/portfolio-5.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image web">
+            <img src="images/portfolio-6.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image app">
+            <img src="images/portfolio-7.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image card">
+            <img src="images/portfolio-8.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image card">
+            <img src="images/portfolio-9.jpg" alt="" class="col-12 col-md-6 col-lg-4 mb-4 item-image web">
         </div>
     </div>
 </section>
@@ -552,6 +563,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- Icotope JS -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
 

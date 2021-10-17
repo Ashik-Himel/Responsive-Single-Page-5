@@ -1,11 +1,11 @@
-// AOS JS
-AOS.init({
-    duration: 1000
-})
 // PreLoader
 document.querySelector('body').onload = function() {
     document.querySelector('.loading').style.display = 'none';
 }
+// AOS JS
+AOS.init({
+    duration: 1000
+})
 // CounterUp
 $('.counter').counterUp({
     delay: 10,
@@ -13,10 +13,9 @@ $('.counter').counterUp({
 });
 // Isotope
 $('.tab-content').isotope({
-    itemSelector: '.item-image',
-    masonry: {},
+    itemSelector: '.tab-item',
+    masonry: {}
 });
-
 $('.tab-titles span').click(function(){
     $('.tab-titles span').removeClass('active');
     $(this).addClass('active');

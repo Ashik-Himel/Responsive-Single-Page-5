@@ -1,7 +1,9 @@
 /* =============== Initial Setup and Utilities ================== */
+html {scroll-padding-top: 40px;}
 body {font-family: 'Poppins', sans-serif;}
 .navbar-brand, h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 .half-opacity-bg {background-color: rgba(0, 123, 255, 0.2) !important;}
+.scroll-top {bottom: 3rem; right: 3rem; z-index: 10;}
 .positioning {top: -20%; left: 50%; transform: translateX(-50%);}
 .carousel-item img {width: 100px;}
 /* ============= For Card Hover ============== */

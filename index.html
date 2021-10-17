@@ -26,8 +26,11 @@
 <!-- PreLoader -->
 <div class="loading w-100 vh-100 fixed-top spinner-lg" style="background: #fff url(images/preloader.svg) no-repeat center;"></div>
 
+<!-- Scroll To Top Icon -->
+<a href="#home" class="bi bi-arrow-up btn btn-primary position-fixed scroll-top" ></a>
+
 <!-- Top Header -->
-<header class="container-fluid bg-primary text-light py-2">
+<header class="container-fluid bg-primary text-light py-2" id="home">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-8 d-flex flex-column align-items-center gap-2 flex-md-row">
@@ -91,7 +94,7 @@
                         </ul>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#team">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     </div>
@@ -161,7 +164,7 @@
 </section>
 
 <!-- About Us Section -->
-<section class="container-fluid py-5">
+<section class="container-fluid py-5" id="about">
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-12 col-md-6 text-center">
@@ -326,7 +329,7 @@
 </section>
 
 <!-- Our Services Section -->
-<section class="container-fluid py-5">
+<section class="container-fluid py-5" id="services">
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-12 col-md-6 text-center">
@@ -447,7 +450,7 @@
 </section>
 
 <!-- Portfolio Section -->
-<section class="container-fluid py-4">
+<section class="container-fluid py-5" id="portfolio">
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-12 col-md-6 text-center">
@@ -499,7 +502,7 @@
 </section>
 
 <!-- Team Section -->
-<section class="container-fluid py-3">
+<section class="container-fluid py-5" id="team">
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-12 col-md-6 text-center">
@@ -732,7 +735,7 @@
 </section>
 
 <!-- Contact Us Section -->
-<section class="container-fluid py-4">
+<section class="container-fluid pt-5 pb-3" id="contact">
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-12 col-md-6 text-center">
@@ -786,7 +789,84 @@
     </div>
 </section>
 
+<!-- Newsletter Section -->
+<section class="container-fluid mb-4 py-5 px-0 half-opacity-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 justify-content-center text-center mx-auto">
+                <h2 class="fw-bold mt-2">Join Our Newsletter</h2>
+                <p class="mt-2">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <div class="row">
+                    <div class="col-12 col-md-8 mx-auto">
+                        <div class="input-group">
+                            <input type="email" id="email" placeholder="Enter Email"class="form-control" >
+                            <div class="input-group-prepend">
+                                <input type="submit" value="Submit" class="input-group-text bg-primary text-light" >
+                            </div>
+                          </div>
+                    </div>
+                </div>
 
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="container-fluid py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 flex-1 mb-4">
+                <a class="navbar-brand fs-4 fw-bold text-dark mb-3 pt-0 d-block" href="#">BizLand<span class="text-primary">.</span></a>
+                <p class="text-muted">
+                    A108 Adam Street<br>
+                    New York, NY 535022<br>
+                    United States
+                </p>
+                <p class="text-muted"><span class="fw-bold">Phone:</span> +880 1770473899</p>
+                <p class="text-muted"><span class="fw-bold">Email:</span> ashikujjamanhimel@gmail.com</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 flex-1 mb-4">
+                <h5 class="fw-bold mb-3">Useful Links</h5>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Home</a>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> About us</a>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Services</a>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Terms of service</a>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Privacy policy</a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 flex-1 mb-4">
+                <h5 class="fw-bold mb-3">Our Services</h5>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Web Design</a>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Web Developement</a>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Product Management</a>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Marketing</a>
+                <a href="#" class="text-muted text-decoration-none d-block mb-2"><i class="bi bi-caret-right-fill"></i> Graphic Design</a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 flex-1 mb-4">
+                <h5 class="fw-bold mb-3">Our Social Networks</h5>
+                <p class="mb-3 text-muted">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                <div class="social-icons">
+                    <i class="bi bi-twitter btn btn-primary"></i>
+                    <i class="bi bi-facebook btn btn-primary"></i>
+                    <i class="bi bi-instagram btn btn-primary"></i>
+                    <i class="bi bi-skype btn btn-primary"></i>
+                    <i class="bi bi-linkedin btn btn-primary"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bottom Footer -->
+<section class="container-fluid pt-5 pb-4 half-opacity-bg">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <p class="col-12 col-md-6 text-center text-md-start">&copy; Copyright <span class="fw-bold">BizLand.</span> All Right Reserved</p>
+            <p class="col-12 col-md-6 text-center text-md-end">Designed by <a href="https://www.facebook.com/ashikujjaman.himel" class="text-primary text-decoration-none fw-bold">Ashikujjaman Himel</a></p>
+        </div>
+    </div>
+</section>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>

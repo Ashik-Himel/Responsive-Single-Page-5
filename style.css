@@ -19,7 +19,8 @@ body {font-family: 'Poppins', sans-serif;}
 .tab-titles .active {color: rgb(0, 123, 255); font-weight: bold;}
 .tab-titles span {display: inline-block; cursor: pointer;}
 .tab-item {border: none;}
-.tab-item img {max-width: 100%;}
+.tab-item img {max-width: 100%; height: auto; overflow: hidden;}
+.tab-content, .tab-item {height: max-content;}
 /* Team Card */
 .social-buttons {top: 50%; left: 15px; opacity: 0;}
 .team-card:hover .social-buttons {opacity: 1; top: 60%; transition: top 0.5s ease-out, opacity 0.5s ease-out;}

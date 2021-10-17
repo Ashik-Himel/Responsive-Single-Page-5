@@ -1,3 +1,10 @@
+// Nav Hide
+const navLink = document.querySelectorAll('.nav-item')
+function linkAction(){
+    const navMenu = document.getElementById('navbarSupportedContent')
+    navMenu.classList.remove('show')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
 // PreLoader
 document.querySelector('body').onload = function() {
     document.querySelector('.loading').style.display = 'none';
